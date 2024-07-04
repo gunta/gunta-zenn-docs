@@ -3,6 +3,9 @@
     "description": "https://zenn.dev/gunta",
     "author": "gunta",
     "license": "CC0 1.0",
+    "scripts": {
+        "zenn": "zenn"
+    },
     "dependencies": {
       "zenn-cli": "latest"
     }
