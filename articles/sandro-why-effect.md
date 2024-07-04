@@ -1,5 +1,5 @@
 ---
-title: "Why everyone is talking about Effect"
+title: "話題沸騰！Effectが業界を席巻する理由とは？🔥"
 emoji: "🕌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [typescript, effect]
