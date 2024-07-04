@@ -57,7 +57,7 @@ The Effect team is also hard at work to provide more app examples and improve th
 Meanwhile, you can start from some of the articles I already published about getting started with Effect:
 
 
-Effect is no more a bet 🔥
+Effect is no more a bet 🔥!
 
 
 Now it's the time to start looking into it. My suggestion is to try it, see by yourself the problem that it solves, and share what you learn along the path.
