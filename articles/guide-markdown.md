@@ -6,7 +6,7 @@ topics: ["zenn"]
 published: false
 ---
 
-このページでは Zenn のmarkdown記法を一覧で紹介します！
+このページでは Zenn のmarkdown記法を一覧で紹介します！!
 
 ## 見出し
 
