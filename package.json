@@ -1,0 +1,9 @@
+{
+    "name": "gunta-zenn-docs",
+    "description": "https://zenn.dev/gunta",
+    "author": "gunta",
+    "license": "CC0 1.0",
+    "dependencies": {
+      "zenn-cli": "latest"
+    }
+  }
