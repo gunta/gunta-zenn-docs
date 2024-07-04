@@ -2,66 +2,63 @@
 title: "Why everyone is talking about Effect"
 emoji: "🕌"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: [typescript, effect]
 published: false
 ---
 
-This week Effect exploded 🤯
+今週、Effectが爆発的な注目を集めました 🤯
 
-Everyone took notice, and everyone is talking about it.
+業界中が騒然となり、みんながEffectについて語り合っています。
 
-Both 😇
+良い意味でも 😇
 
 ---
 
-# Why Effect in the first place?
-In the heat of the discussion the main doubt about Effect remains: **why?**
+# そもそもなぜEffectなのか？
+議論が白熱する中、Effectに関する最大の疑問は依然として：**なぜ？**です。
 
-> The simple answer is: "it allows to easily **create and maintain complex Typescript applications"
+> 簡単に言えば、「複雑なTypeScriptアプリケーションを**簡単に作成・保守できる**ようになる」からです。
 
-Indeed, that's a bit generic to sell the real value of Effect.
+確かに、これではEffectの本当の価値を伝えるには少し漠然としすぎていますね。
 
-That's my take on "why Effect" 👇
+そこで、私なりの「なぜEffect」を説明してみましょう 👇
 
-## Type safety
-It's so awesome when you refactor some code and **the complier guides** you in all the places in your code that you need to update. That's the power of using types.
+## 型安全性
+コードをリファクタリングする際に、**コンパイラーが更新が必要な箇所を全て教えてくれる**のは素晴らしいことです。これこそが型を使う力です。
 
-Examples:
+例えば：
 
-- Adding a new error forces you to handle it in all the places where it's introduced (e.g. [catchTags](https://effect-ts.github.io/effect/effect/Effect.ts.html#catchtags))
-- Adding a new services requires you to provide valid implementations where required (i.e. [provide](https://effect-ts.github.io/effect/effect/Effect.ts.html#provide))
-- With the [Match](https://effect-ts.github.io/effect/effect/Match.ts.html) module and pattern matching you are required to handle all cases
+- 新しいエラーを追加すると、それを導入したすべての箇所で処理することを強制されます（例：[catchTags](https://effect-ts.github.io/effect/effect/Effect.ts.html#catchtags)）
+- 新しいサービスを追加すると、必要な箇所で有効な実装を提供することが求められます（例：[provide](https://effect-ts.github.io/effect/effect/Effect.ts.html#provide)）
+- [Match](https://effect-ts.github.io/effect/effect/Match.ts.html)モジュールとパターンマッチングを使用すると、すべてのケースを処理することが要求されます
 
-## Composable
-Dependency injection built in allows to write generic and composable apps.
+## 合成可能性
+依存性注入が組み込まれているため、汎用的で合成可能なアプリケーションを書くことができます。
 
-> Define services, and then **swap and compose different implementations**. This makes testing a breeze, and allows to switch between one solution to another in 1 line of code
+> サービスを定義し、**異なる実装を交換・合成する**ことができます。これによりテストが非常に簡単になり、1行のコードで一つのソリューションから別のソリューションに切り替えることができます。
 
-You are no more dependent on any framework or library. This is a huge plus 🚀
+もはや特定のフレームワークやライブラリに依存する必要がありません。これは大きなプラスポイントです 🚀
 
-## Best practices
+## ベストプラクティス
 
-Effect teaches you best practices (regardless of programming language):
+Effectは（プログラミング言語に関係なく）ベストプラクティスを教えてくれます：
 
-The principles that Effect uses and applies force you to better structure and understand your code.
+Effectが使用・適用する原則によって、コードをより良く構造化し、理解することが強制されます。
 
-# What will happen
+# これからどうなるか
 
-The people who tried Effect and understood the "why" are now all-in on it:
+Effectを試して「なぜ」を理解した人々は、今や完全にEffectに夢中になっています：
 
-This heat will increase more and more in the upcoming months as more people learn about it and start to share more examples.
+この熱は、より多くの人々がEffectについて学び、より多くの例を共有し始めるにつれて、今後数ヶ月でさらに高まっていくでしょう。
 
-The Effect team is also hard at work to provide more app examples and improve the docs:
+Effectチームも、より多くのアプリケーション例を提供し、ドキュメントを改善するために懸命に取り組んでいます：
 
+その間、私がすでに公開しているEffectの入門に関する記事からスタートすることができます：
 
-Meanwhile, you can start from some of the articles I already published about getting started with Effect:
+Effectはもはや賭けではありません 🔥！
 
+今こそ、Effectを調べ始めるときです。私のアドバイスは、実際に試してみて、それが解決する問題を自分で確認し、学んだことを共有することです。
 
-Effect is no more a bet 🔥!
+私も同じことをしています 💁🏼‍♂️
 
-
-Now it's the time to start looking into it. My suggestion is to try it, see by yourself the problem that it solves, and share what you learn along the path.
-
-I am doing the same 💁🏼‍♂️
-
-See you next 👋
+では、また次回 👋
